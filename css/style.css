@@ -418,3 +418,76 @@
     text-decoration: none;
     color: #707070;
 }
+
+.Polezn-Zagolov {
+    font-size: 34px;
+    color: #707070;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.Polezn-images-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+        
+.Polezn-image-item 
+{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.Polezn-image-text {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Polezn-text-picture1,
+.Polezn-text-picture2,
+.Polezn-text-picture4 {
+    text-align: center;
+    margin-right: 65%;
+    font-size: 27px;
+}
+
+.Polezn-text-picture3 {
+    text-align: center;
+    margin-right: 100%;
+    font-size: 27px;
+}
+
+.Polezn-images-grid {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 40px;
+}
+
+.image-container {position: relative;}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+}
+
+.image-text_2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.327);
+    color: white;
+    padding: 35%; 
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
