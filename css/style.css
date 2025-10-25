@@ -34,3 +34,32 @@
     margin-left: 14%;
     text-decoration: none;
 }
+
+.Logo {
+    margin-left: 3%;
+    size: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    font-size: 25px;  
+    font-weight: bold;
+}
+
+.Osobenost {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Osobenost-item {margin-right: 65px;}
+
+.Osobenost-link {
+    color: black;
+    text-decoration: none;
+}
+
+.Osobenost-link:hover {
+    color: black;
+    color: rgb(143, 134, 143);
+    text-decoration: none;
+}
