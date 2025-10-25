@@ -392,3 +392,29 @@
     justify-content: center;
     margin-left: 70%;
 }
+
+.Brend-Logo {
+    font-size: 28px;
+    color: #707070;
+    margin-left: 2%;
+}
+
+.Brend {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.Brend-item {
+    margin-right: 27px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 6%;
+}
+
+.Brend-link {
+    text-decoration: none;
+    color: #707070;
+}
