@@ -338,3 +338,57 @@
     width: 100%;
     padding-bottom: 10px;
 }
+
+.Logo_Konsultant {
+    font-size: 34px;
+    color: #707070;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.Kons-images-grid {
+    border-radius: 12px;
+    display: flex;
+}
+
+.Kons-image-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.Kons-image-Name {
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+}
+
+.Kons-Opisanie {
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+.Konst-text {
+    font-size: 15px;
+    background-color: #FFA019;
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.Picture_1,
+.Picture_2,
+.Picture_3 {
+    width: 196px;
+    height: 248px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+}
