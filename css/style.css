@@ -139,3 +139,76 @@
     font-weight: 500;
     margin-top: 10px;
 }
+
+.Logo-O_Nas
+{
+    font-size: 34px;
+    color: #707070;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.about-text {
+    font-size: 20px;
+    color: #707070;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+           
+.block-section {
+    background-color: #FFA019;
+    padding: 1%;
+    margin-top: 2%;
+}
+        
+.block-container {
+    display: flex;
+    align-items: center;
+}
+        
+.block-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 1%;
+    width: 20%;
+    padding-top: 1%;
+}
+        
+.block-form {
+    display: flex;
+    margin-left: 15%;
+    gap: 5%;
+    width: 60%;
+}
+        
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.form-group input {
+    padding: 5%;
+    width: 100%;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.form-podpisat {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    width: 237px;
+    height: 40px;
+    line-height: 45px;
+    text-decoration: none;
+    color:black;
+}
