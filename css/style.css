@@ -511,5 +511,44 @@
     
 }
 
+.Footer {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.171);
+}
+
+.footer-My-Giro {
+    margin-left: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #707070;
+}
+
+.Title-Text {
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.795);
+    margin-top: 10%;
+}
+
+.Company-My-Giro, 
+.Pokuptel-My-Giro,
+.Support-My-Giro {
+    position: relative;
+    justify-content: right;
+    color: #707070;
+    margin-right: 50px;
+    margin-left: 125px;
+}
+
+.Line-footer {
+    background-color: black;
+    width: 100%;
+    height: 28px;
+}
 
 
